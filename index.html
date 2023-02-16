@@ -50,12 +50,14 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
         }
 	
 	 //code to calculate the percentages of cold and allergy based on response
-	function getResults(){ 
+	
+	function getResults() { 
 		var resultText = document.getElementById("results");
 		var allergyPercent = (allegry_count / 4) * 100; 
 		var coldPercent = (cold_count / 4) * 100;
 		resultText.innerHTML = "Probability it is allergies =" + allergyPercent + "<br> Probability it is a cold =" + coldPercent; 
-      			     }
+      			
+	}
 	
 </script>
 
@@ -149,8 +151,8 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	<div class="page" id="five">	 
 	
 	<div id="header" class="w3-container w3-flat-carrot">
-		<h1>results</h1>  
-<!--added heading , -->	
+		<h1>The Results are in!</h1>  
+<!--added heading , -->	 
 	
 	</div>	
 	<div id="content" class="w3-container">
