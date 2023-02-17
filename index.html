@@ -51,7 +51,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	
 	 //code to calculate the percentages of cold and allergy based on response
 	
-	function math() {
+	function math(){
 		var resultText = document.getElementById("finalresults");
 		var allergyPercent = (allegry_count / 4) * 100; 
 		var coldPercent = (cold_count / 4) * 100;
@@ -156,8 +156,9 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	
 	</div>	
 	<div id="content" class="w3-container">
-		 <p id="finalresults"></p>
+		 <p id="finalresults">
 		<button onclick="math()">Go</button>
+		</p>
 
 <!--added button , -->	
 	
