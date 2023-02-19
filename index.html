@@ -52,11 +52,11 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	 //code to calculate the percentages of cold and allergy based on response
 	
 	function allergyPercent(){
-		(allegry_count / 4) * 100; 
+		var (allegry_count / 4) * 100; 
 	}
 	
 	function coldPercent(){
-		(cold_count / 4) * 100;
+		var (cold_count / 4) * 100;
 		
 	function math(){
 		var resultText = document.getElementById("final").innerHTML = "Probability it is allergies =" + allergyPercent + "<br> Probability it is a cold =" + coldPercent;
